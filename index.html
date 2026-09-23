@@ -74,9 +74,19 @@
 
     @media (max-width: 768px) {
       body {
-        background-color: red;
+        /* background-color: red; */
         background-size: cover;
-background-position: top center;
+        background-position: top center;
+        /* background-attachment: scroll; */
+        /* background-size: contain; */
+        /* background-position: center top; */
+      }
+    }
+
+    @supports (-webkit-touch-callout: none) {
+      body {
+        background-attachment: scroll;
+        background-position: center top;
       }
     }
 
@@ -559,79 +569,77 @@ background-position: top center;
     ========================================================= */
 
     .story-section {
-  padding: 140px 20px;
-  position: relative;
+      padding: 140px 20px;
+      position: relative;
 
-  /* Keep the translucent sage background */
-  background: rgba(142, 162, 136, 0.72);
+      /* Keep the translucent sage background */
+      background: rgba(142, 162, 136, 0.72);
 
-  /* Helps separate this section from the others */
-  color: var(--text-dark);
-}
-
-
-/* Section heading */
-
-.story-section .section-subtitle {
-  color: var(--champagne-pale);
-}
-
-.story-section .section-title {
-  color: #fffdf8;
-}
+      /* Helps separate this section from the others */
+      color: var(--text-dark);
+    }
 
 
-/* Decorative gold line */
+    /* Section heading */
 
-.story-section .gold-line {
-  background: var(--champagne-light);
-}
+    .story-section .section-subtitle {
+      color: var(--champagne-pale);
+    }
 
-.story-section .gold-line::before,
-.story-section .gold-line::after {
-  color: var(--champagne-light);
-}
+    .story-section .section-title {
+      color: #fffdf8;
+    }
+
+
+    /* Decorative gold line */
+
+    .story-section .gold-line {
+      background: var(--champagne-light);
+    }
+
+    .story-section .gold-line::before,
+    .story-section .gold-line::after {
+      color: var(--champagne-light);
+    }
 
     .timeline {
-  max-width: 1050px;
-  margin: 80px auto 0;
-  position: relative;
-}
+      max-width: 1050px;
+      margin: 80px auto 0;
+      position: relative;
+    }
 
     .timeline::before {
-  content: "";
-  position: absolute;
+      content: "";
+      position: absolute;
 
-  top: 0;
-  bottom: 0;
-  left: 50%;
+      top: 0;
+      bottom: 0;
+      left: 50%;
 
-  width: 2px;
+      width: 2px;
 
-  background:
-    linear-gradient(
-      to bottom,
-      transparent,
-      var(--champagne-light),
-      #fffdf8,
-      var(--champagne-light),
-      transparent
-    );
+      background:
+        linear-gradient(to bottom,
+          transparent,
+          var(--champagne-light),
+          #fffdf8,
+          var(--champagne-light),
+          transparent);
 
-  transform: translateX(-50%);
+      transform: translateX(-50%);
 
-  opacity: .9;
-}
+      opacity: .9;
+    }
 
 
-/* Timeline items */
+    /* Timeline items */
 
-.timeline-item {
-  width: 50%;
-  padding: 20px 45px;
-  margin-bottom: 65px;
-  position: relative;
-}
+    .timeline-item {
+      width: 50%;
+      padding: 20px 45px;
+      margin-bottom: 65px;
+      position: relative;
+    }
 
 
 
@@ -645,92 +653,92 @@ background-position: top center;
     }
 
     .timeline-item::after {
-  content: "✦";
+      content: "✦";
 
-  position: absolute;
-  top: 40px;
+      position: absolute;
+      top: 40px;
 
-  width: 20px;
-  height: 20px;
+      width: 20px;
+      height: 20px;
 
-  color: var(--champagne-light);
+      color: var(--champagne-light);
 
-  background: var(--sage-dark);
+      background: var(--sage-dark);
 
-  font-size: 12px;
+      font-size: 12px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-  border: 1px solid var(--champagne-light);
+      border: 1px solid var(--champagne-light);
 
-  border-radius: 50%;
+      border-radius: 50%;
 
-  box-shadow:
-    0 0 0 5px rgba(255, 255, 255, .08),
-    0 4px 12px rgba(50, 60, 50, .15);
-}
+      box-shadow:
+        0 0 0 5px rgba(255, 255, 255, .08),
+        0 4px 12px rgba(50, 60, 50, .15);
+    }
 
     .timeline-item:nth-child(odd)::after {
-  right: -10px;
-}
+      right: -10px;
+    }
 
-.timeline-item:nth-child(even)::after {
-  left: -10px;
-}
+    .timeline-item:nth-child(even)::after {
+      left: -10px;
+    }
 
     /* Story cards */
 
-.timeline-content {
-  padding: 35px;
+    .timeline-content {
+      padding: 35px;
 
-  background: rgba(255, 255, 255, 0.92);
+      background: rgba(255, 255, 255, 0.92);
 
-  border:
-    1px solid rgba(184, 149, 104, .35);
+      border:
+        1px solid rgba(184, 149, 104, .35);
 
-  border-radius: 4px 25px 25px 25px;
+      border-radius: 4px 25px 25px 25px;
 
-  box-shadow:
-    0 15px 35px rgba(67, 78, 66, .15);
+      box-shadow:
+        0 15px 35px rgba(67, 78, 66, .15);
 
-  transition: .4s ease;
-}
+      transition: .4s ease;
+    }
 
     .timeline-item:nth-child(even) .timeline-content {
-  border-radius: 25px 4px 25px 25px;
-}
+      border-radius: 25px 4px 25px 25px;
+    }
 
 
-.timeline-content:hover {
-  transform: translateY(-5px);
+    .timeline-content:hover {
+      transform: translateY(-5px);
 
-  box-shadow:
-    0 20px 45px rgba(67, 78, 66, .20);
-}
+      box-shadow:
+        0 20px 45px rgba(67, 78, 66, .20);
+    }
 
     /* Story titles */
 
-.timeline-content h3 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 34px;
-  font-weight: 500;
+    .timeline-content h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 34px;
+      font-weight: 500;
 
-  color: var(--sage-dark);
+      color: var(--sage-dark);
 
-  margin-bottom: 10px;
-}
+      margin-bottom: 10px;
+    }
 
 
-/* Story text */
+    /* Story text */
 
-.timeline-content p {
-  color: #5d665c;
+    .timeline-content p {
+      color: #5d665c;
 
-  font-size: 14px;
-  line-height: 1.9;
-}
+      font-size: 14px;
+      line-height: 1.9;
+    }
 
 
     /* =========================================================
