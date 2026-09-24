@@ -2948,6 +2948,23 @@ footer p {
 
 }
 
+.footer-credit {
+    margin-top: 25px;
+    margin-bottom: -75px;
+
+    font-size: 11px;
+    letter-spacing: 1px;
+
+    color: rgba(255, 255, 255, 0.75);
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-credit strong {
+    color: var(--champagne-light);
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
 
     html,
