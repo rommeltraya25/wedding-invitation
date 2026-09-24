@@ -3244,33 +3244,13 @@
 
     <div class="gold-line"></div>
 
-    <form class="rsvp-form reveal">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfebZAyHmDsIhTmLik7_6hChP5sQdrHTwKJo8f29bsejY42qw/viewform?embedded=true"
+      width="640" height="733" frameborder="0" marginheight="0" marginwidth="0"
+      style="display:block; margin:40px auto 0; max-width:100%;">
+      Loading…
+    </iframe>
 
-      <input type="text" required placeholder="Your Name">
-
-      <select required>
-
-        <option value="">
-          Will you attend?
-        </option>
-
-        <option>
-          Joyfully Accepts
-        </option>
-
-        <option>
-          Regretfully Declines
-        </option>
-
-      </select>
-
-      <textarea rows="5" placeholder="Leave a message for the couple..."></textarea>
-
-      <button type="submit">
-        Send RSVP
-      </button>
-
-    </form>
 
   </section>
 
@@ -4247,19 +4227,78 @@
        when you are ready.
     ========================================================= */
 
-    document
-      .querySelector(".rsvp-form")
-      .addEventListener("submit", function (event) {
+    //     document
+    //       .getElementById("rsvpForm")
+    //       .addEventListener("submit", async function (event) {
 
-        event.preventDefault();
+    //         event.preventDefault();
 
-        alert(
-          "Thank you for confirming your RSVP! ♡"
-        );
+    //         const rsvpData = {
+    //           id: "rsvpForm",
+    //           name: document.getElementById("guestName").value.trim(),
+    //           attendance: document.getElementById("attendance").value,
+    //           message: document.getElementById("guestMessage").value.trim()
+    //         };
 
-        this.reset();
+    //         console.log("RSVP Submitted:", rsvpData);
 
-      });
+    //         try {
+
+    //           // await submitAttendance(rsvpData);
+
+    //           alert(
+    //             "Thank you for confirming your RSVP! ♡"
+    //           );
+
+    //           this.reset();
+
+    //         } catch (error) {
+
+    //           console.error("Submission failed:", error);
+
+    //           alert(
+    //             "Something went wrong while submitting your RSVP. Please try again."
+    //           );
+
+    //         }
+
+    //       });
+
+
+    //     const url =
+    //   "https://script.google.com/macros/s/AKfycbxeNHjRydpALs4B975Rcad4RlcDz5g93fyYpI5RA61uTLkmIVNyrfrgc3e4mqXf_PgN0g/exec";
+
+
+    // async function submitAttendance(rsvpData) {
+
+    //   const formData = new URLSearchParams();
+
+    //   formData.append("Name", rsvpData.name);
+    //   formData.append("Attendance", rsvpData.attendance);
+    //   formData.append("Message", rsvpData.message);
+
+    //   // Date + time
+    //   formData.append(
+    //     "Date",
+    //     new Date().toISOString()
+    //   );
+
+    //   console.log(
+    //     "Sending RSVP to Google Sheets:",
+    //     Object.fromEntries(formData)
+    //   );
+
+    //   await fetch(url, {
+    //     method: "POST",
+    //     mode: "no-cors",
+    //     body: formData
+    //   });
+
+    //   console.log("RSVP request sent.");
+    // }
+
+
+
 
 
     /* =========================================================
