@@ -2426,6 +2426,226 @@
       }
 
     }
+
+
+    /* =========================================================
+   WEDDING REMINDERS
+========================================================= */
+
+    .reminders-section {
+      padding: 90px 20px;
+      position: relative;
+      background: rgba(245, 241, 232, 0.82);
+    }
+
+    .reminders-container {
+      max-width: 850px;
+      margin: 55px auto 0;
+
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .reminder-item {
+      display: flex;
+      gap: 15px;
+      align-items: flex-start;
+
+      padding: 22px 20px;
+
+      background: rgba(255, 255, 255, 0.88);
+
+      border: 1px solid rgba(184, 149, 104, 0.18);
+      border-radius: 16px;
+
+      box-shadow:
+        0 8px 25px rgba(62, 72, 61, 0.05);
+
+      transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+    }
+
+    .reminder-item:hover {
+      transform: translateY(-3px);
+
+      box-shadow:
+        0 14px 35px rgba(62, 72, 61, 0.09);
+    }
+
+    .reminder-icon {
+      flex-shrink: 0;
+
+      width: 30px;
+      height: 30px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 50%;
+
+      background: var(--sage-pale);
+      border: 1px solid rgba(184, 149, 104, .25);
+
+      color: var(--champagne-dark);
+
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 16px;
+    }
+
+    .reminder-content h3 {
+      margin-bottom: 5px;
+
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 500;
+
+      color: var(--sage-dark);
+    }
+
+    .reminder-content p {
+      font-size: 12px;
+      line-height: 1.7;
+
+      color: var(--text-soft);
+    }
+
+    .reminders-note {
+      max-width: 650px;
+      margin: 35px auto 0;
+
+      text-align: center;
+
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      line-height: 1.6;
+
+      color: var(--text-soft);
+    }
+
+    @media (max-width: 768px) {
+
+      .reminders-section {
+        padding: 80px 18px;
+      }
+
+      .reminders-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 40px;
+      }
+
+      .reminder-item {
+        padding: 18px 16px;
+      }
+
+      .reminder-content h3 {
+        font-size: 20px;
+      }
+
+      .reminder-content p {
+        font-size: 11px;
+      }
+
+      .reminders-note {
+        font-size: 17px;
+      }
+
+    }
+
+    /* =========================================================
+   FOOTER FACEBOOK CTA
+========================================================= */
+
+    .footer-divider {
+      width: 55px;
+      height: 1px;
+
+      margin: 28px auto 22px;
+
+      background: var(--champagne-light);
+
+      opacity: .65;
+    }
+
+    .footer-inquiry {
+      font-family: 'Cormorant Garamond', serif;
+
+      font-size: 18px;
+
+      letter-spacing: .5px;
+
+      opacity: .9;
+    }
+
+    .facebook-link {
+      display: inline-flex;
+
+      align-items: center;
+      justify-content: center;
+
+      gap: 10px;
+
+      margin-top: 14px;
+
+      padding: 10px 18px;
+
+      color: white;
+
+      text-decoration: none;
+
+      font-family: 'Montserrat', sans-serif;
+
+      font-size: 10px;
+
+      letter-spacing: 1.5px;
+
+      text-transform: uppercase;
+
+      border: 1px solid rgba(255, 255, 255, .28);
+
+      border-radius: 30px;
+
+      background: rgba(255, 255, 255, .08);
+
+      transition:
+        background .3s ease,
+        transform .3s ease,
+        border-color .3s ease;
+    }
+
+    .facebook-link:hover {
+      background: rgba(255, 255, 255, .16);
+
+      border-color:
+        rgba(215, 189, 148, .7);
+
+      transform: translateY(-2px);
+    }
+
+    .facebook-icon {
+      width: 22px;
+      height: 22px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 50%;
+
+      background: #1877F2;
+
+      color: white;
+
+      font-family: Arial, sans-serif;
+
+      font-size: 15px;
+      font-weight: bold;
+
+      text-transform: lowercase;
+    }
   </style>
 </head>
 
@@ -2607,16 +2827,18 @@
 
     <div class="timeline">
 
+      <!-- It Started With a Conversation -->
       <div class="timeline-item reveal reveal-left">
 
         <div class="timeline-content">
 
-          <h3>First Meeting</h3>
+          <h3>It Started With a Conversation</h3>
 
           <p>
-            Two strangers met, unaware that their
-            paths crossing would become the beginning
-            of something beautiful.
+            It started with conversations on social media during the time of
+            online classes. Between playful teasing and endless jokes,
+            Rommel and Pearly slowly became a part of each other's everyday
+            lives—without realizing where it would lead.
           </p>
 
         </div>
@@ -2624,16 +2846,24 @@
       </div>
 
 
+      <!-- The First Hello -->
       <div class="timeline-item reveal reveal-right">
 
         <div class="timeline-content">
 
-          <h3>First Date</h3>
+          <h3>The First Hello</h3>
 
           <p>
-            What began as a simple date turned into
-            endless laughter, meaningful conversations,
-            and a connection neither expected.
+            They already knew a little about one another, including their love
+            for music and Pearly's life as a vocalist. One day, curiosity led
+            Rommel to find out where Pearly would be performing, and he found
+            her gig at Belle's Bistro.
+          </p>
+
+          <p>
+            Rommel went, watched her perform, and asked for a photo afterwards.
+            It was a simple hello, but it was the moment their online
+            conversations became something real.
           </p>
 
         </div>
@@ -2641,15 +2871,67 @@
       </div>
 
 
+      <!-- Three Years of Courtship -->
       <div class="timeline-item reveal reveal-left">
 
         <div class="timeline-content">
 
-          <h3>The Proposal</h3>
+          <h3>Three Years of Courtship</h3>
 
           <p>
-            A heartfelt question, a joyful yes,
-            and a promise to walk through life
+            The messages continued, and so did Rommel's courtship. Eventually,
+            Pearly agreed to go out with him.
+          </p>
+
+          <p>
+            They spent those years watching talent competitions, taking motor
+            rides, and enjoying the simplest moments together. Three years of
+            patience gave them something worth waiting for.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Through Every Storm -->
+      <div class="timeline-item reveal reveal-right">
+
+        <div class="timeline-content">
+
+          <h3>Through Every Storm</h3>
+
+          <p>
+            Then came one of the hardest chapters of their journey. An accident
+            caused by reckless drivers left Pearly in the hospital.
+          </p>
+
+          <p>
+            Through the fear, sacrifices, and uncertainty, Rommel and Pearly
+            stayed beside each other. That difficult season showed them that
+            whatever came their way, they would face it together.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- More Blessings -->
+      <div class="timeline-item reveal reveal-left">
+
+        <div class="timeline-content">
+
+          <h3>More Blessings</h3>
+
+          <p>
+            After the storm came brighter days. A permanent and stable job
+            became one of the blessings that followed, along with many more
+            reasons to be grateful.
+          </p>
+
+          <p>
+            Through every season, Rommel and Pearly kept moving forward—
             together.
           </p>
 
@@ -2658,15 +2940,67 @@
       </div>
 
 
+      <!-- The Unexpected Proposal -->
       <div class="timeline-item reveal reveal-right">
+
+        <div class="timeline-content">
+
+          <h3>The Unexpected Proposal</h3>
+
+          <p>
+            After more than a year as a couple, Pearly thought the proposal
+            would come sometime in the next year or two.
+          </p>
+
+          <p>
+            Then came a Christmas party with their fellow musicians and an
+            exchange gift. Everyone would draw a name to know who they would
+            be giving a gift to.
+          </p>
+
+          <p>
+            But Rommel had a different plan. He intentionally searched through
+            the names until he found the one he wanted—Pearly's.
+          </p>
+
+          <p>
+            What she thought would simply be an exchange gift turned into
+            something far more meaningful.
+          </p>
+
+          <p>
+            Inside was a marriage ring.
+          </p>
+
+          <p>
+            She didn't see it coming. And that made the moment even more special.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Forever Begins -->
+      <div class="timeline-item reveal reveal-left">
 
         <div class="timeline-content">
 
           <h3>Forever Begins</h3>
 
           <p>
-            Hand in hand, surrounded by the people
-            we love, we begin our next chapter together.
+            From online conversations and playful teasing to courtship,
+            challenges, and countless memories, every chapter brought Rommel
+            and Pearly closer to this moment.
+          </p>
+
+          <p>
+            Now, after everything they've shared, they're ready for the
+            next chapter.
+          </p>
+
+          <p>
+            <strong>Forever begins with Rommel and Pearly.</strong>
           </p>
 
         </div>
@@ -2676,6 +3010,7 @@
     </div>
 
   </section>
+
 
 
   <!-- =========================================================
@@ -2860,6 +3195,36 @@
 
   </section>
 
+  <!-- =========================================================
+     WEDDING REMINDERS
+========================================================= -->
+
+  <section class="reminders-section">
+
+    <div class="section-subtitle" style="text-align:center;">
+      A Little Note From Us
+    </div>
+
+    <div class="section-title reveal">
+      A Few Gentle Reminders
+    </div>
+
+    <div class="gold-line"></div>
+
+    <p class="faq-intro reveal">
+      A few thoughtful reminders to help us keep the celebration
+      comfortable, meaningful, and special for everyone.
+    </p>
+
+    <!-- JSON DATA WILL BE DISPLAYED HERE -->
+    <div class="reminders-container" id="reminders-container"></div>
+
+    <p class="reminders-note reveal">
+      Thank you for respecting our wishes and for being part of
+      this beautiful chapter of our lives. ♡
+    </p>
+
+  </section>
 
 
   <!-- =========================================================
@@ -2869,15 +3234,15 @@
   <section class="rsvp-section">
 
     <div class="section-subtitle" style="text-align:center;">
-      Kindly Respond
-    </div>
-
-    <div class="section-title reveal">
       RSVP
     </div>
 
-    <div class="gold-line"></div>
+    <div class="reveal" style="text-align:center;">
+      <span class="section-title">We'd love to save you a seat!</span><br><span class="entourage-intro">let us know if
+        you can celebrate with us.</span>
+    </div>
 
+    <div class="gold-line"></div>
 
     <form class="rsvp-form reveal">
 
@@ -2926,7 +3291,20 @@
       December 18, 2026
     </p>
 
+    <div class="footer-divider"></div>
+
+    <p class="footer-inquiry">
+      Interested in an RSVP website like this?
+    </p>
+
+    <a href="https://www.facebook.com/rommeltraya25/" target="_blank" rel="noopener noreferrer" class="facebook-link"
+      aria-label="Message me on Facebook">
+      <span class="facebook-icon">f</span>
+      <span>Message me on Facebook</span>
+    </a>
+
   </footer>
+
 
   <!-- =========================================================
      DRESS CODE IMAGE LIGHTBOX
@@ -3313,40 +3691,6 @@
                 role: "Bridesmaid"
               }
             ]
-            // people: [
-            //   {
-            //     name: "Bening",
-            //     role: "Bridesmaid"
-            //   },
-            //   {
-            //     name: "Iska",
-            //     role: "Bridesmaid"
-            //   },
-            //   {
-            //     name: "Pacing",
-            //     role: "Bridesmaid"
-            //   },
-            //   {
-            //     name: "Sioning",
-            //     role: "Bridesmaid"
-            //   },
-            //   {
-            //     name: "Tinay",
-            //     role: "Bridesmaid"
-            //   },
-            //   {
-            //     name: "Inday",
-            //     role: "Bridesmaid"
-            //   },
-            //   {
-            //     name: "Nening",
-            //     role: "Bridesmaid"
-            //   },
-            //   {
-            //     name: "Saling",
-            //     role: "Bridesmaid"
-            //   }
-            // ]
           }
 
         ]
@@ -3369,7 +3713,7 @@
             title: "Candle",
             people: [
               {
-                name: "Carl Tan Alpino",
+                name: "Carl Christian T. Alpino",
                 role: "Candle Sponsor"
               },
               {
@@ -3383,11 +3727,11 @@
             title: "Cord",
             people: [
               {
-                name: "Jun Cinco Lumpas",
+                name: "Jun C. Lumpas",
                 role: "Cord Sponsor"
               },
               {
-                name: "Lynde Grace Cagara",
+                name: "Lynde Grace B. Cagara",
                 role: "Cord Sponsor"
               }
             ]
@@ -3397,11 +3741,11 @@
             title: "Veil",
             people: [
               {
-                name: "Lander Catantan",
+                name: "Lander V. Catantan",
                 role: "Veil Sponsor"
               },
               {
-                name: "Aira Mae Catantan",
+                name: "Aira Mae S. Catantan",
                 role: "Veil Sponsor"
               }
             ]
@@ -3493,7 +3837,7 @@
                 role: "Flower Girl"
               },
               {
-                name: "Bella Regis",
+                name: "Arabella Regis",
                 role: "Flower Girl"
               }
             ]
@@ -3916,6 +4260,96 @@
         this.reset();
 
       });
+
+
+    /* =========================================================
+ WEDDING REMINDERS DATA
+========================================================= */
+
+    const remindersData = [
+
+      {
+        title: "Keep Our Invitation Private",
+        text: "This invitation is intended for our invited guests. Kindly refrain from sharing the invitation link with others, as our arrangements are based on our confirmed guest list."
+      },
+
+      {
+        title: "Please Observe the Guest Limit",
+        text: "We kindly ask that only guests specifically included in the invitation attend the celebration. Thank you for understanding our carefully planned arrangements."
+      },
+
+      {
+        title: "Please Arrive on Time",
+        text: "We encourage everyone to arrive early and be seated before the ceremony begins so you can share in this meaningful moment from the very beginning."
+      },
+
+      {
+        title: "Keep Phones on Silent",
+        text: "During the ceremony, please place mobile phones and other devices on silent so everyone can remain fully present."
+      },
+
+      {
+        title: "Give Our Photographers Space",
+        text: "Please allow our official photographers and videographers enough room to capture the special moments of our day without interruption."
+      },
+
+      {
+        title: "Share the Joy Respectfully",
+        text: "We are happy for you to take photos and share memories. We simply ask that everyone remain mindful of the ceremony, the couple, and our other guests."
+      }
+
+    ];
+
+
+    /* =========================================================
+       DISPLAY WEDDING REMINDERS
+    ========================================================= */
+
+    const remindersContainer =
+      document.getElementById("reminders-container");
+
+
+    remindersData.forEach((reminder, index) => {
+
+      const reminderItem =
+        document.createElement("div");
+
+      reminderItem.className =
+        "reminder-item reveal";
+
+
+      reminderItem.innerHTML = `
+
+    <div class="reminder-icon">
+      ✦
+    </div>
+
+    <div class="reminder-content">
+
+      <h3>
+        ${reminder.title}
+      </h3>
+
+      <p>
+        ${reminder.text}
+      </p>
+
+    </div>
+
+  `;
+
+
+      remindersContainer.appendChild(
+        reminderItem
+      );
+
+
+      /* Observe dynamically-created reveal element */
+
+      observer.observe(reminderItem);
+
+    });
+
 
     /* =========================================================
  DRESS CODE IMAGE LIGHTBOX
