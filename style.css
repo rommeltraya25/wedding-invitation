@@ -2973,3 +2973,115 @@ footer p {
     }
 
 }
+
+
+/* =========================================================
+   GIFTS
+========================================================= */
+
+.gifts-section {
+    padding: 120px 20px;
+    background: rgba(251, 248, 241, 0.86);
+}
+
+.gifts-card {
+    max-width: 700px;
+    margin: 60px auto 0;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, .90);
+
+    border: 1px solid rgba(184, 149, 104, .22);
+
+    border-radius: 25px;
+
+    padding: 50px 35px;
+
+    box-shadow:
+        0 15px 40px rgba(62, 72, 61, .08);
+}
+
+.gift-message {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    line-height: 1.8;
+    color: var(--text-dark);
+
+    margin-bottom: 18px;
+}
+
+.gift-qr-wrapper {
+    margin: 35px 0;
+}
+
+.gift-qr {
+    width: 260px;
+    max-width: 100%;
+
+    border-radius: 18px;
+
+    border: 8px solid white;
+
+    box-shadow:
+        0 15px 35px rgba(62, 72, 61, .12);
+}
+
+.gift-account {
+    margin-top: 15px;
+
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    color: var(--sage-dark);
+    text-transform: uppercase;
+}
+
+.gift-note {
+    margin-top: 20px;
+
+    color: var(--text-soft);
+
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+
+    .gifts-card {
+        padding: 35px 20px;
+    }
+
+    .gift-message {
+        font-size: 20px;
+    }
+
+    .gift-qr {
+        width: 220px;
+    }
+}
+
+.gift-qr {
+    width: 260px;
+    max-width: 100%;
+
+    border-radius: 18px;
+
+    border: 8px solid white;
+
+    box-shadow:
+        0 15px 35px rgba(62, 72, 61, .12);
+
+    cursor: zoom-in;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+}
+
+.gift-qr:hover {
+    transform: scale(1.03);
+
+    box-shadow:
+        0 20px 45px rgba(62, 72, 61, .18);
+}
