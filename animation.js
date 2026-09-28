@@ -1,5 +1,3 @@
-
-
 /* =========================================================
 FLOATING PRIVATE INVITATION NOTICE
 ========================================================= */
@@ -78,24 +76,21 @@ function updateCountdown() {
     const hours =
         Math.floor(
             (distance %
-                (1000 * 60 * 60 * 24))
-            /
+                (1000 * 60 * 60 * 24)) /
             (1000 * 60 * 60)
         );
 
     const minutes =
         Math.floor(
             (distance %
-                (1000 * 60 * 60))
-            /
+                (1000 * 60 * 60)) /
             (1000 * 60)
         );
 
     const seconds =
         Math.floor(
             (distance %
-                (1000 * 60))
-            /
+                (1000 * 60)) /
             1000
         );
 
@@ -182,11 +177,9 @@ const entourageData = {
     parents: {
         layout: "two-columns",
 
-        groups: [
-            {
+        groups: [{
                 title: "Parents of the Groom",
-                people: [
-                    {
+                people: [{
                         name: "John Rupert Traya",
                         role: "Brother (as Father)"
                     },
@@ -199,8 +192,7 @@ const entourageData = {
 
             {
                 title: "Parents of the Bride",
-                people: [
-                    {
+                people: [{
                         name: "Porferio Almerino",
                         role: "Father"
                     },
@@ -228,13 +220,44 @@ const entourageData = {
 
             {
                 title: "Ninong",
-                people: [
-                    {
-                        name: "---",
+                people: [{
+                        name: "Lemuel Gin Traya",
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "---",
+                        name: "Jairo Beltran",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Alexander De Paz",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Dario Lleve",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Sergio Zabala",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Noel Basister",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Jonalou Alicando",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Jun Lucadio",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Hanzel Crebillo",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Eric Barcelo",
                         role: "Principal Sponsor"
                     },
                     {
@@ -246,17 +269,48 @@ const entourageData = {
 
             {
                 title: "Ninang",
-                people: [
-                    {
-                        name: "---",
+                people: [{
+                        name: "Lyra Nuevas",
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "---",
+                        name: "Eleonor Beltran",
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "---",
+                        name: "Arlene De Paz",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Fe Traya Duarte",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Lucy Hadlocon",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Abbiguel Basister",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Marciano Alicando",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Mia Luzadio",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Axcel Crebillo",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Jennifer Torremocha",
+                        role: "Principal Sponsor"
+                    },
+                    {
+                        name: "Flor Suan",
                         role: "Principal Sponsor"
                     }
                 ]
@@ -278,22 +332,18 @@ const entourageData = {
 
             {
                 title: "Best Man",
-                people: [
-                    {
-                        name: "Rhynmark Alere",
-                        role: "Best Man"
-                    }
-                ]
+                people: [{
+                    name: "Rhynmark Alere",
+                    role: "Best Man"
+                }]
             },
 
             {
                 title: "Maid of Honor",
-                people: [
-                    {
-                        name: "Renalyn Salvador",
-                        role: "Maid of Honor"
-                    }
-                ]
+                people: [{
+                    name: "Renalyn Salvador",
+                    role: "Maid of Honor"
+                }]
             }
 
         ]
@@ -312,8 +362,7 @@ const entourageData = {
 
             {
                 title: "Groomsmen",
-                people: [
-                    {
+                people: [{
                         name: "Ragy Cyrus Gonzaga",
                         role: "Groomsman"
                     },
@@ -350,8 +399,7 @@ const entourageData = {
 
             {
                 title: "Bridesmaids",
-                people: [
-                    {
+                people: [{
                         name: "---",
                         role: "Bridesmaid"
                     },
@@ -360,7 +408,7 @@ const entourageData = {
                         role: "Bridesmaid"
                     },
                     {
-                        name: "Jemarie Candela",
+                        name: "Jeramie Candela",
                         role: "Bridesmaid"
                     },
                     {
@@ -380,7 +428,7 @@ const entourageData = {
                         role: "Bridesmaid"
                     },
                     {
-                        name: "---",
+                        name: "Denielle Ropila",
                         role: "Bridesmaid"
                     }
                 ]
@@ -404,9 +452,8 @@ const entourageData = {
 
             {
                 title: "Candle",
-                people: [
-                    {
-                        name: "Carl Christian T. Alpino",
+                people: [{
+                        name: "Carl Christian Alpino",
                         role: "Candle Sponsor"
                     },
                     {
@@ -418,13 +465,12 @@ const entourageData = {
 
             {
                 title: "Cord",
-                people: [
-                    {
-                        name: "Jun C. Lumpas",
+                people: [{
+                        name: "Jun Lumpas",
                         role: "Cord Sponsor"
                     },
                     {
-                        name: "Lynde Grace B. Cagara",
+                        name: "Lynde Grace Cagara",
                         role: "Cord Sponsor"
                     }
                 ]
@@ -432,13 +478,12 @@ const entourageData = {
 
             {
                 title: "Veil",
-                people: [
-                    {
-                        name: "Lander V. Catantan",
+                people: [{
+                        name: "Lander Catantan",
                         role: "Veil Sponsor"
                     },
                     {
-                        name: "Aira Mae S. Catantan",
+                        name: "Aira Mae Catantan",
                         role: "Veil Sponsor"
                     }
                 ]
@@ -460,32 +505,26 @@ const entourageData = {
 
             {
                 title: "Ring Bearer",
-                people: [
-                    {
-                        name: "Zian Mollera",
-                        role: "Ring Bearer"
-                    }
-                ]
+                people: [{
+                    name: "Zian Mollera",
+                    role: "Ring Bearer"
+                }]
             },
 
             {
                 title: "Coin Bearer",
-                people: [
-                    {
-                        name: "Maxwill Luya",
-                        role: "Coin Bearer"
-                    }
-                ]
+                people: [{
+                    name: "Maxwill Luya",
+                    role: "Coin Bearer"
+                }]
             },
 
             {
                 title: "Bible Bearer",
-                people: [
-                    {
-                        name: "Aziel Kenn Traya",
-                        role: "Bible Bearer"
-                    }
-                ]
+                people: [{
+                    name: "Aziel Kenn Traya",
+                    role: "Bible Bearer"
+                }]
             }
 
         ]
@@ -506,8 +545,7 @@ const entourageData = {
 
             {
                 title: "Flower Girls",
-                people: [
-                    {
+                people: [{
                         name: "Leona Marie Almerino",
                         role: "Flower Girl"
                     },
@@ -524,8 +562,7 @@ const entourageData = {
 
             {
                 title: "Flower Girls",
-                people: [
-                    {
+                people: [{
                         name: "Yhance Mollera",
                         role: "Flower Girl"
                     },
@@ -758,62 +795,52 @@ const faqData = [
 
     {
         question: "What time should we arrive?",
-        answer:
-            "We kindly ask our guests to arrive at least 30 minutes before the ceremony so everyone can be comfortably seated before the celebration begins."
+        answer: "We kindly ask our guests to arrive at least 30 minutes before the ceremony so everyone can be comfortably seated before the celebration begins."
     },
 
     {
         question: "Where will the ceremony be held?",
-        answer:
-            "The wedding ceremony will be held at Saint Francis Xavier Parish at 1:00 PM."
+        answer: "The wedding ceremony will be held at Saint Francis Xavier Parish at 1:00 PM."
     },
 
     {
         question: "Where will the reception be held?",
-        answer:
-            "The reception will follow at Putyokan San Abuyog at 3:00 PM."
+        answer: "The reception will follow at Putyokan San Abuyog at 3:00 PM."
     },
 
     {
         question: "What should I wear?",
-        answer:
-            "Our dress code is elegant sage green for the ladies and champagne brown tones for the gentlemen."
+        answer: "Our dress code is elegant sage green for the ladies and champagne brown tones for the gentlemen."
     },
 
     {
         question: "Can I bring a plus-one?",
-        answer:
-            "If they’re not on the invitation, they’re not on the guest list. We love surprises, just not expensive ones. 😂"
+        answer: "If they’re not on the invitation, they’re not on the guest list. We love surprises, just not expensive ones. 😂"
     },
 
     {
         question: "Are children invited?",
-        answer:
-            "Children who are specifically included in the invitation are warmly welcome to celebrate with us."
+        answer: "Children who are specifically included in the invitation are warmly welcome to celebrate with us."
     },
 
     {
         question: "Do I need to RSVP?",
-        answer:
-            "Yes, please confirm your attendance through the RSVP form so we can properly prepare for your arrival."
+        answer: "Yes, please confirm your attendance through the RSVP form so we can properly prepare for your arrival."
     },
 
     {
         question: "Is there parking available?",
-        answer:
-            "Yes, parking will be available near the wedding venues. Please allow some extra time for parking and getting to your seat."
+        answer: "Yes, parking will be available near the wedding venues. Please allow some extra time for parking and getting to your seat."
     },
 
     {
         question: "Can I take photos during the ceremony?",
-        answer:
-            "We would love for you to capture the celebration, but we kindly ask everyone to keep phones and cameras unobtrusive during the ceremony."
+        answer: "We would love for you to capture the celebration, but we kindly ask everyone to keep phones and cameras unobtrusive during the ceremony."
     },
 
     {
         question: "What if I have other questions?",
-        answer:
-            "If you have any questions that are not answered here, please feel free to reach out to the couple or a member of the wedding party."
+        answer: "If you have any questions that are not answered here, please feel free to reach out to the couple or a member of the wedding party."
     }
 
 ];
@@ -1036,8 +1063,8 @@ const remindersData = [
     },
 
     {
-        title: "Keep Phones on Silent",
-        text: "During the ceremony, please place mobile phones and other devices on silent so everyone can remain fully present."
+        title: "Thanks, But We Didn’t Ask",
+        text: "If you have an opinion about our wedding, kindly add it to the list of things we didn’t ask for. Our money, our wedding, our rules. Thank you for understanding. 😌"
     },
 
     {
@@ -1145,13 +1172,13 @@ dressCodeImages.forEach((image) => {
 
         const title =
             image
-                .closest(".detail-card")
-                .querySelector("h3");
+            .closest(".detail-card")
+            .querySelector("h3");
 
         lightboxCaption.textContent =
-            title
-                ? title.textContent
-                : image.alt;
+            title ?
+            title.textContent :
+            image.alt;
 
         lightbox.classList.add("active");
 
@@ -1232,9 +1259,7 @@ function closeLightbox() {
 
     setTimeout(() => {
 
-        if (
-            !lightbox.classList.contains("active")
-        ) {
+        if (!lightbox.classList.contains("active")) {
 
             lightboxImage.src = "";
 
@@ -1242,4 +1267,45 @@ function closeLightbox() {
 
     }, 400);
 
+
+}
+
+
+async function downloadQRCode() {
+    const imageUrl = "wedding-images/qrcode.jpg";
+
+    try {
+        const response = await fetch(imageUrl);
+        const blob = await response.blob();
+
+        const file = new File(
+            [blob],
+            "Rommel-Traya-GCash-QR.jpg", { type: blob.type }
+        );
+
+        // iPhone / Android share sheet
+        if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+            await navigator.share({
+                files: [file],
+                title: "GCash QR Code"
+            });
+            return;
+        }
+
+        // Desktop / browsers supporting download
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+
+        link.href = url;
+        link.download = "Rommel-Traya-GCash-QR.jpg";
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+
+        URL.revokeObjectURL(url);
+
+    } catch (error) {
+        // Fallback for browsers that don't support downloading/sharing
+        window.open(imageUrl, "_blank");
+    }
 }
