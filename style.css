@@ -35,7 +35,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+
+/* body {
     color: var(--text-dark);
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -58,6 +59,40 @@ body {
         background-attachment: scroll;
         background-position: center top;
     }
+} */
+
+body {
+    color: var(--text-dark);
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background: var(--ivory);
+}
+
+
+/* Full-page background image */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -10;
+    pointer-events: none;
+    background-image: url("wedding-images/RP-10.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/* Soft overlay */
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -9;
+    pointer-events: none;
+    background: rgba(251, 248, 241, 0.25);
 }
 
 
@@ -65,7 +100,8 @@ body {
        GLOBAL BOTANICAL BACKGROUND
     ========================================================= */
 
-body::before {
+
+/* body::before {
     content: "";
     position: fixed;
     inset: 0;
@@ -82,7 +118,7 @@ body::after {
     pointer-events: none;
     background-image: linear-gradient(rgba(138, 103, 69, .025) 1px, transparent 1px), linear-gradient(90deg, rgba(138, 103, 69, .025) 1px, transparent 1px);
     background-size: 50px 50px;
-}
+} */
 
 
 /* =========================================================
