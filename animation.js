@@ -233,7 +233,7 @@ const entourageData = {
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "Dario Lleve",
+                        name: "---",
                         role: "Principal Sponsor"
                     },
                     {
