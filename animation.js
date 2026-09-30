@@ -249,7 +249,7 @@ const entourageData = {
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "Jun Lucadio",
+                        name: "Jun Luzadio",
                         role: "Principal Sponsor"
                     },
                     {
