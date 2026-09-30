@@ -245,7 +245,7 @@ const entourageData = {
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "Jonalou Alicando",
+                        name: "Marciano Alicando",
                         role: "Principal Sponsor"
                     },
                     {
@@ -274,7 +274,7 @@ const entourageData = {
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "Eleonor Beltran",
+                        name: "Eleanor Christine Beltran",
                         role: "Principal Sponsor"
                     },
                     {
@@ -294,7 +294,7 @@ const entourageData = {
                         role: "Principal Sponsor"
                     },
                     {
-                        name: "Marciano Alicando",
+                        name: "Jonalou Alicando",
                         role: "Principal Sponsor"
                     },
                     {
