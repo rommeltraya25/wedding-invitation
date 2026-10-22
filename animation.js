@@ -178,30 +178,30 @@ const entourageData = {
         layout: "two-columns",
 
         groups: [{
-                title: "Parents of the Groom",
-                people: [{
-                        name: "John Rupert Traya",
-                        role: "Brother (as Father)"
-                    },
-                    {
-                        name: "Amelita Traya",
-                        role: "Mother"
-                    }
-                ]
+            title: "Parents of the Groom",
+            people: [{
+                name: "John Rupert Traya",
+                role: "Brother (as Father)"
             },
-
             {
-                title: "Parents of the Bride",
-                people: [{
-                        name: "Porferio Almerino",
-                        role: "Father"
-                    },
-                    {
-                        name: "Elena Almerino",
-                        role: "Mother"
-                    }
-                ]
+                name: "Amelita Traya",
+                role: "Mother"
             }
+            ]
+        },
+
+        {
+            title: "Parents of the Bride",
+            people: [{
+                name: "Porferio Almerino",
+                role: "Father"
+            },
+            {
+                name: "Elena Almerino",
+                role: "Mother"
+            }
+            ]
+        }
         ]
     },
 
@@ -221,98 +221,98 @@ const entourageData = {
             {
                 title: "Ninong",
                 people: [{
-                        name: "Lemuel Gin Traya",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Jairo Beltran",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Alexander De Paz",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "---",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Sergio Zabala",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Noel Basister",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "---",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Jun Luzadio",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Hanzel Crebillo",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Eric Barcelo",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "---",
-                        role: "Principal Sponsor"
-                    }
+                    name: "Lemuel Gin Traya",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Jairo Beltran",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Alexander De Paz",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Dario Lleve",
+                    role: "Principal Sponsor"   
+                },
+                {
+                    name: "Sergio Zabala",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Noel Basister",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "---",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Joseph Amante",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Hanzel Crebillo",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Eric Barcelo",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Anthony Calamaya",
+                    role: "Principal Sponsor"
+                }
                 ]
             },
 
             {
                 title: "Ninang",
                 people: [{
-                        name: "Lyra Nuevas",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Eleanor Christine Beltran",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Arlene De Paz",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Fe Traya Duarte",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Lucy Hadlocon",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Abbiguel Basister",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Jonalou Alicando",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Mia Luzadio",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Aczle Ko-Crebillo",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Jennifer Torremocha",
-                        role: "Principal Sponsor"
-                    },
-                    {
-                        name: "Flor Suan",
-                        role: "Principal Sponsor"
-                    }
+                    name: "Lyra Nuevas",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Eleanor Christine Beltran",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Arlene De Paz",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Fe Traya Duarte",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Lucy Hadlocon",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Abbiguel Basister",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Jonalou Alicando",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Lucy Amante",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Aczle Ko-Crebillo",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Jennifer Torremocha",
+                    role: "Principal Sponsor"
+                },
+                {
+                    name: "Flor Suan",
+                    role: "Principal Sponsor"
+                }
                 ]
             }
 
@@ -363,74 +363,74 @@ const entourageData = {
             {
                 title: "Groomsmen",
                 people: [{
-                        name: "Ragy Cyrus Gonzaga",
-                        role: "Groomsman"
-                    },
-                    {
-                        name: "Jefflei Realino",
-                        role: "Groomsman"
-                    },
-                    {
-                        name: "Andrei Clyde Sacro",
-                        role: "Groomsman"
-                    },
-                    {
-                        name: "Dante Tisado Jr.",
-                        role: "Groomsman"
-                    },
-                    {
-                        name: "John Clinton Ceballos",
-                        role: "Groomsman"
-                    },
-                    {
-                        name: "Philip Kevin Mita",
-                        role: "Groomsman"
-                    },
-                    {
-                        name: "Kit Liesly Torremocha",
-                        role: "Groomsman"
-                    },
-                    {
-                        name: "Joshua Slim Torres",
-                        role: "Groomsman"
-                    }
+                    name: "Ragy Cyrus Gonzaga",
+                    role: "Groomsman"
+                },
+                {
+                    name: "Jefflei Realino",
+                    role: "Groomsman"
+                },
+                {
+                    name: "Andrei Clyde Sacro",
+                    role: "Groomsman"
+                },
+                {
+                    name: "Dante Tisado Jr.",
+                    role: "Groomsman"
+                },
+                {
+                    name: "John Clinton Ceballos",
+                    role: "Groomsman"
+                },
+                {
+                    name: "Philip Kevin Mita",
+                    role: "Groomsman"
+                },
+                {
+                    name: "Kit Liesly Torremocha",
+                    role: "Groomsman"
+                },
+                {
+                    name: "Joshua Slim Torres",
+                    role: "Groomsman"
+                }
                 ]
             },
 
             {
                 title: "Bridesmaids",
                 people: [{
-                        name: "---",
-                        role: "Bridesmaid"
-                    },
-                    {
-                        name: "Je Ann Caidoy",
-                        role: "Bridesmaid"
-                    },
-                    {
-                        name: "Jeramie Candela",
-                        role: "Bridesmaid"
-                    },
-                    {
-                        name: "Gellie Ann Azores",
-                        role: "Bridesmaid"
-                    },
-                    {
-                        name: "Jessa Coral",
-                        role: "Bridesmaid"
-                    },
-                    {
-                        name: "Lovely Catantan",
-                        role: "Bridesmaid"
-                    },
-                    {
-                        name: "Rachelle Candela",
-                        role: "Bridesmaid"
-                    },
-                    {
-                        name: "Denielle Ropila",
-                        role: "Bridesmaid"
-                    }
+                    name: "Mary Morabe",
+                    role: "Bridesmaid"
+                },
+                {
+                    name: "Je Ann Caidoy",
+                    role: "Bridesmaid"
+                },
+                {
+                    name: "Jeramie Candela",
+                    role: "Bridesmaid"
+                },
+                {
+                    name: "Gellie Ann Azores",
+                    role: "Bridesmaid"
+                },
+                {
+                    name: "Jessa Coral",
+                    role: "Bridesmaid"
+                },
+                {
+                    name: "Lovely Catantan",
+                    role: "Bridesmaid"
+                },
+                {
+                    name: "Rachelle Candela",
+                    role: "Bridesmaid"
+                },
+                {
+                    name: "Denielle Franz Ropila",
+                    role: "Bridesmaid"
+                }
                 ]
             }
 
@@ -453,39 +453,39 @@ const entourageData = {
             {
                 title: "Candle",
                 people: [{
-                        name: "Carl Christian Alpino",
-                        role: "Candle Sponsor"
-                    },
-                    {
-                        name: "Lalaine Calupaz Caidoy",
-                        role: "Candle Sponsor"
-                    }
+                    name: "Carl Christian Alpino",
+                    role: "Candle Sponsor"
+                },
+                {
+                    name: "Lalaine Calupaz Caidoy",
+                    role: "Candle Sponsor"
+                }
                 ]
             },
 
             {
                 title: "Cord",
                 people: [{
-                        name: "Jun Lumpas",
-                        role: "Cord Sponsor"
-                    },
-                    {
-                        name: "Lynde Grace Cagara",
-                        role: "Cord Sponsor"
-                    }
+                    name: "Jun Lumpas",
+                    role: "Cord Sponsor"
+                },
+                {
+                    name: "Lynde Grace Cagara",
+                    role: "Cord Sponsor"
+                }
                 ]
             },
 
             {
                 title: "Veil",
                 people: [{
-                        name: "Lander Catantan",
-                        role: "Veil Sponsor"
-                    },
-                    {
-                        name: "Aira Mae Catantan",
-                        role: "Veil Sponsor"
-                    }
+                    name: "Lander Catantan",
+                    role: "Veil Sponsor"
+                },
+                {
+                    name: "Aira Mae Catantan",
+                    role: "Veil Sponsor"
+                }
                 ]
             }
 
@@ -522,7 +522,7 @@ const entourageData = {
             {
                 title: "Bible Bearer",
                 people: [{
-                    name: "Aziel Kenn Traya",
+                    name: "Aziel Ken Traya",
                     role: "Bible Bearer"
                 }]
             }
@@ -546,30 +546,30 @@ const entourageData = {
             {
                 title: "Flower Girls",
                 people: [{
-                        name: "Leona Marie Almerino",
-                        role: "Flower Girl"
-                    },
-                    {
-                        name: "Leana Grace Almerino",
-                        role: "Flower Girl"
-                    },
-                    {
-                        name: "Kristal Flor",
-                        role: "Flower Girl"
-                    }
+                    name: "Leona Marie Almerino",
+                    role: "Flower Girl"
+                },
+                {
+                    name: "Leana Grace Almerino",
+                    role: "Flower Girl"
+                },
+                {
+                    name: "Kristal Flor",
+                    role: "Flower Girl"
+                }
                 ]
             },
 
             {
                 title: "Flower Girls",
                 people: [{
-                        name: "Yhance Mollera",
-                        role: "Flower Girl"
-                    },
-                    {
-                        name: "Arabella Regis",
-                        role: "Flower Girl"
-                    }
+                    name: "Yhance Mollera",
+                    role: "Flower Girl"
+                },
+                {
+                    name: "Arabella Regis",
+                    role: "Flower Girl"
+                }
                 ]
             }
 
@@ -1172,13 +1172,13 @@ dressCodeImages.forEach((image) => {
 
         const title =
             image
-            .closest(".detail-card")
-            .querySelector("h3");
+                .closest(".detail-card")
+                .querySelector("h3");
 
         lightboxCaption.textContent =
             title ?
-            title.textContent :
-            image.alt;
+                title.textContent :
+                image.alt;
 
         lightbox.classList.add("active");
 
