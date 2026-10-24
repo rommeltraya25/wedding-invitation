@@ -404,11 +404,11 @@ const entourageData = {
                     role: "Bridesmaid"
                 },
                 {
-                    name: "Je Ann Caidoy",
+                    name: "Lovely Catantan",
                     role: "Bridesmaid"
                 },
                 {
-                    name: "Jeramie Candela",
+                    name: "Jemarie Candela",
                     role: "Bridesmaid"
                 },
                 {
@@ -420,7 +420,7 @@ const entourageData = {
                     role: "Bridesmaid"
                 },
                 {
-                    name: "Lovely Catantan",
+                    name: "Je Ann Caidoy",
                     role: "Bridesmaid"
                 },
                 {
