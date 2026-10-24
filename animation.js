@@ -457,7 +457,7 @@ const entourageData = {
                     role: "Candle Sponsor"
                 },
                 {
-                    name: "Lalaine Calupaz Caidoy",
+                    name: "Geralyn Caidoy",
                     role: "Candle Sponsor"
                 }
                 ]
