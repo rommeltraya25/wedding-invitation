@@ -245,7 +245,7 @@ const entourageData = {
                     role: "Principal Sponsor"
                 },
                 {
-                    name: "---",
+                    name: "Charlie Mondragon",
                     role: "Principal Sponsor"
                 },
                 {
@@ -282,7 +282,7 @@ const entourageData = {
                     role: "Principal Sponsor"
                 },
                 {
-                    name: "Fe Traya Duarte",
+                    name: "Jennifer Torremocha",
                     role: "Principal Sponsor"
                 },
                 {
@@ -294,7 +294,7 @@ const entourageData = {
                     role: "Principal Sponsor"
                 },
                 {
-                    name: "Jonalou Alicando",
+                    name: "Fe Traya Duarte",
                     role: "Principal Sponsor"
                 },
                 {
@@ -306,11 +306,11 @@ const entourageData = {
                     role: "Principal Sponsor"
                 },
                 {
-                    name: "Jennifer Torremocha",
+                    name: "Flor Suan",
                     role: "Principal Sponsor"
                 },
                 {
-                    name: "Flor Suan",
+                    name: "Jonalou Alicando",
                     role: "Principal Sponsor"
                 }
                 ]
