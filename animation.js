@@ -290,7 +290,7 @@ const entourageData = {
                     role: "Principal Sponsor"
                 },
                 {
-                    name: "Abbiguel Basister",
+                    name: "Abequel Basister",
                     role: "Principal Sponsor"
                 },
                 {
@@ -310,7 +310,7 @@ const entourageData = {
                     role: "Principal Sponsor"
                 },
                 {
-                    name: "Jonalou Alicando",
+                    name: "Johna Lou Alicando",
                     role: "Principal Sponsor"
                 }
                 ]
@@ -514,7 +514,7 @@ const entourageData = {
             {
                 title: "Coin Bearer",
                 people: [{
-                    name: "Maxwill Luya",
+                    name: "Maxwill John Luya",
                     role: "Coin Bearer"
                 }]
             },
