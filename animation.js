@@ -379,7 +379,7 @@ const entourageData = {
                     role: "Groomsman"
                 },
                 {
-                    name: "John Clinton Ceballos",
+                    name: "Aldrin Patrick Camposano",
                     role: "Groomsman"
                 },
                 {
